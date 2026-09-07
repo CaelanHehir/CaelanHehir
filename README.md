@@ -2,8 +2,6 @@
 
 Currently studying programming at [42](https://42.fr/en/homepage/).
 
----
-
 ### Obligatory github stats:
 
 <table>
@@ -16,8 +14,6 @@ Currently studying programming at [42](https://42.fr/en/homepage/).
     </td>
   </tr>
 </table>
-
----
 
 Todo: Write more stuff later
 
