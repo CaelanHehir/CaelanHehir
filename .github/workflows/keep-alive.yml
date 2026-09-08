@@ -3,7 +3,10 @@ name: Keep-alive commit
 on:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
+  workflow_dispatch: # allows manual trigger
+  push:
+    branches:
+      - main
 
 jobs:
   commit:
