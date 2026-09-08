@@ -3,7 +3,7 @@ name: Keep-alive commit
 on:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch: # allows manual trigger
+  workflow_dispatch:  # allows manual trigger
   push:
     branches:
       - main
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: keep-alive   # <- branch to commit to
+          ref: main  # <- branch to commit to
 
       - name: Write random content
         run: |
@@ -26,8 +26,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "CaelanHehir"
+          git config user.email "caelanhehir@gmail.com"
           git add .keepalive/log.txt
           git commit -m "chore: keep-alive commit" || echo "Nothing to commit"
           git push origin keep-alive
