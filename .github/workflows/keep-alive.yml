@@ -30,4 +30,4 @@ jobs:
           git config user.email "caelanhehir@gmail.com"
           git add .keepalive/log.txt
           git commit -m "chore: keep-alive commit" || echo "Nothing to commit"
-          git push origin keep-alive
+          git push origin main
