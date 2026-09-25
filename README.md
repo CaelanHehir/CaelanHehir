@@ -2,8 +2,6 @@
 
 I'm currently studying programming at [42](https://42.fr/en/homepage/).
 
-### Obligatory GitHub stats:
-
 <table>
   <tr>
     <td>
@@ -14,7 +12,5 @@ I'm currently studying programming at [42](https://42.fr/en/homepage/).
     </td>
   </tr>
 </table>
-
-Todo: Write more stuff later
 
 <img width=990 src="https://raw.githubusercontent.com/CaelanHehir/CaelanHehir/output/snake.svg" />
