@@ -6,7 +6,7 @@
       <img src="https://streak-stats.demolab.com/?user=CaelanHehir&theme=radical" />
     </td>
     <td valign="top">
-      <img width="420" src="https://github-stats-extended.vercel.app/api/top-langs/?username=CaelanHehir&layout=compact&theme=radical" />
+      <img width="420" src="https://github-stats-extended.vercel.app/api/top-langs/?username=CaelanHehir&layout=compact&theme=radical&langs_count=4" />
     </td>
   </tr>
 </table>
